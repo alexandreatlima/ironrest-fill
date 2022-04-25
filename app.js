@@ -1,7 +1,7 @@
 const data = require("./data");
 const axios = require("axios");
 
-const API_COLLECTION_NAME = "teste-fill";
+const API_COLLECTION_NAME = "COLOQUE O NOME DA SUA COLEÇÃO AQUI!";
 
 async function postAPI(item) {
   await axios.post(
